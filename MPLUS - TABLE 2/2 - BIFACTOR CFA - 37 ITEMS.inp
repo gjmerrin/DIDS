@@ -1,0 +1,133 @@
+TITLE: 
+DIDS WLSMV BIFACTOR CFA (37 ITEMS)
+
+DATA:   
+FILE IS DIDSFinal_37i.DAT;
+
+VARIABLE:
+
+NAMES ARE 
+r30e a14i r47i r51i a7i a1i e90f a67i e76m e98m r56i
+a22i a69i r50i r52i e86a a28i a131 e100a a11i e91f
+a26ee e88a r66i a2i e80a e93s e77m r62i e82m r61i 
+e85s a68i e102m a74ee r54i a72ee;
+
+CATEGORICAL ARE 
+r30e a14i r47i r51i a7i a1i e90f a67i e76m e98m r56i
+a22i a69i r50i r52i e86a a28i a131 e100a a11i e91f
+a26ee e88a r66i a2i e80a e93s e77m r62i e82m r61i 
+e85s a68i e102m a74ee r54i a72ee;
+
+ANALYSIS: 
+
+ESTIMATOR = WLSMV;
+PARAMETERIZATION = THETA;
+
+MODEL:      
+
+! Latent Factors with Fixed Factor Scaling
+F1 BY a28i* 
+      a1i 
+      r61i 
+      r54i 
+      a67i 
+      e100a 
+      r66i 
+      r62i 
+      a2i 
+      a68i 
+      a69i
+      r56i 
+      r52i 
+      r50i 
+      r47i 
+      r51i 
+      r30e 
+      a11i;
+
+F2 BY a7i* 
+      a22i 
+      a131 
+      a14i;
+
+F3 BY e88a* 
+      e86a 
+      a74ee 
+      a72ee;
+
+F4 BY e76m* 
+      e77m 
+      a26ee 
+      e98m 
+      e90f 
+      e91f 
+      e82m 
+      e85s 
+      e93s 
+      e80a 
+      e102m;
+
+! Constrain factor variance to 1 for identification
+F1@1 F2@1 F3@1 F4@1;
+
+! Constrain genderal factor mean to 0 for identification
+[F1@0 F2@0 F3@0 F4@0];
+
+! Constrain covariances between latent factors to 0   
+F1 WITH F2@0 F3@0 F4@0;
+F2 WITH F3@0 F4@0;
+F3 WITH F4@0;
+
+! Latent general factor
+G BY a28i* 
+     a1i 
+     r61i 
+     r54i 
+     a67i 
+     e100a 
+     r66i 
+     r62i 
+     a2i 
+     a68i 
+     a69i
+     r56i 
+     r52i 
+     r50i 
+     r47i 
+     r51i 
+     r30e 
+     a11i 
+     a7i 
+     a22i 
+     a131 
+     a14i
+     e88a 
+     e86a 
+     a74ee 
+     a72ee 
+     e76m 
+     e77m 
+     a26ee 
+     e98m 
+     e90f 
+     e91f
+     e82m 
+     e85s 
+     e93s 
+     e80a 
+     e102m;
+
+! Constrain general factor variance to 1 for identification 
+G@1;
+
+! Constrain genderal factor mean to 0 for identification
+[G@0];
+
+! Constrain covariance between general factor and other factors to 0              
+G WITH F1@0 F2@0 F3@0 F4@0;
+
+OUTPUT:     
+TECH1 STANDARDIZED;
+
+PLOT:       
+TYPE = PLOT1 PLOT2;

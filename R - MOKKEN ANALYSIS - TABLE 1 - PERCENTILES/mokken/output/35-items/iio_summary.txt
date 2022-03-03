@@ -1,0 +1,149 @@
+$method
+[1] "MSCPM"
+
+$item.summary
+      ItemH  #ac #vi #vi/#ac maxvi   sum sum/#ac  zmax #zsig crit
+e86a   0.42 1088   4    0.00  0.12  0.30  0.0003 10.93     4   88
+r61i   0.39 1088  16    0.01  0.08  0.90  0.0008 12.19    16  121
+e88a   0.44 1088  25    0.02  0.16  1.52  0.0014 12.03    25  141
+a2i    0.38 1088  27    0.02  0.12  1.43  0.0013 15.25    27  159
+r54i   0.42 1088  24    0.02  0.12  1.35  0.0012 15.08    24  152
+a72ee  0.34 1088  77    0.07  0.29  7.87  0.0072 12.73    77  236
+r56i   0.35 1088  66    0.06  0.17  4.36  0.0040 15.16    66  217
+a74ee  0.35 1088  90    0.08  0.29  7.59  0.0070 15.77    90  260
+e80a   0.47 1088  60    0.06  0.29  4.73  0.0043 15.25    59  218
+a11i   0.42 1088  81    0.07  0.23  4.98  0.0046 14.58    77  227
+r51i   0.41 1088 110    0.10  0.23  7.54  0.0069 14.81   109  261
+a67i   0.49 1088 105    0.10  0.20  7.28  0.0067 14.49    97  243
+r47i   0.39 1088 144    0.13  0.20  9.78  0.0090 14.76   142  287
+r52i   0.45 1088 102    0.09  0.15  6.32  0.0058 15.25    98  242
+a28i   0.48 1088 104    0.10  0.22  7.52  0.0069 15.85    99  254
+a1i    0.47 1088 122    0.11  0.19  8.29  0.0076 15.77   119  267
+e100a  0.52 1088 156    0.14  0.27 11.84  0.0109 15.85   133  295
+a68i   0.52 1088 156    0.14  0.29 12.09  0.0111 15.38   133  295
+a69i   0.48 1088 112    0.10  0.20  7.71  0.0071   NaN    99  NaN
+e82m   0.42 1088 131    0.12  0.16  8.61  0.0079   NaN   121  NaN
+e98m   0.49 1088 132    0.12  0.23 10.11  0.0093   NaN   114  NaN
+a26ee  0.45 1088 105    0.10  0.21  7.54  0.0069 15.21    96  250
+r50i   0.42 1088 123    0.11  0.17  7.83  0.0072   NaN   111  NaN
+a7i    0.34 1088 184    0.17  0.24 16.38  0.0151   NaN   160  NaN
+r62i   0.51 1088 128    0.12  0.27 10.19  0.0094   NaN   117  NaN
+r66i   0.51 1088 107    0.10  0.24  8.15  0.0075   NaN    90  NaN
+e76m   0.45 1088  82    0.08  0.18  5.65  0.0052   NaN    70  NaN
+a22i   0.30 1088 178    0.16  0.27 15.71  0.0144   NaN   147  NaN
+e77m   0.43 1088  53    0.05  0.24  4.20  0.0039   NaN    45  NaN
+r30e   0.39 1088  74    0.07  0.33  6.20  0.0057 14.99    60  232
+a131   0.28 1088 102    0.09  0.45  8.87  0.0081   NaN    77  NaN
+e102m  0.39 1088  55    0.05  0.35  4.18  0.0038   NaN    46  NaN
+e93s   0.43 1088  64    0.06  0.45  6.60  0.0061   NaN    56  NaN
+e91f   0.35 1088  60    0.06  0.24  4.47  0.0041   NaN    45  NaN
+e85s   0.47 1088  21    0.02  0.28  1.79  0.0016 15.38    21  165
+
+$backward.selection
+      step 1 step 2 step 3 step 4 step 5 step 6 step 7 step 8 step 9 step 10 step 11 step 12
+e86a       3      3      3      2      2      2      2      2      1       1       1       1
+r61i       7      7      7      6      6      6      6      6      6       5       5       5
+e88a       6      6      6      5      5      5      5      5      4       4       4       4
+a2i       13     13     13     12     12     11     11     11     10       9       8       8
+r54i       8      8      8      7      7      7      7      7      6       5       4       4
+a72ee     26     25     24     NA     NA     NA     NA     NA     NA      NA      NA      NA
+r56i      20     19     18     17     17     16     16     16     15      14      13      12
+a74ee     23     22     21     21     21     20     19     19     NA      NA      NA      NA
+e80a      20     19     19     18     17     17     16     15     14      13      12      11
+a11i      19     18     17     16     16     15     14     13     12      11      10       9
+r51i      21     20     19     18     17     16     15     15     14      13      12      11
+a67i      21     20     19     18     17     17     16     15     14      13      12      12
+r47i      21     20     19     18     17     16     15     15     14      13      12      11
+r52i      25     24     23     22     21     20     19     18     17      NA      NA      NA
+a28i      22     21     20     19     18     17     16     15     14      13      12      12
+a1i       24     23     22     21     20     19     18     17     16      15      14      13
+e100a     23     22     21     20     19     18     17     16     15      14      13      13
+a68i      24     23     22     21     20     20     19     18     17      16      NA      NA
+a69i      28     NA     NA     NA     NA     NA     NA     NA     NA      NA      NA      NA
+e82m      23     22     21     20     19     18     17     16     15      14      13      12
+e98m      27     26     NA     NA     NA     NA     NA     NA     NA      NA      NA      NA
+a26ee     22     21     20     19     18     17     16     15     14      13      12      11
+r50i      22     21     20     19     18     17     16     15     15      14      13      12
+a7i       25     24     23     22     21     20     NA     NA     NA      NA      NA      NA
+r62i      26     25     24     23     22     NA     NA     NA     NA      NA      NA      NA
+r66i      24     23     22     21     20     19     18     17     16      15      15      NA
+e76m      19     18     17     16     15     14     13     12     11      11      10       9
+a22i      25     24     23     23     NA     NA     NA     NA     NA      NA      NA      NA
+e77m      12     11     10     10      9      8      7      6      6       6       6       5
+r30e      15     14     13     13     12     11     10      9      9       9       8       7
+a131      23     22     21     21     20     19     19     NA     NA      NA      NA      NA
+e102m     12     11     10     10      9      8      7      6      6       6       6       5
+e93s      16     15     14     13     12     11     10      9      9       9       9       8
+      step 13 step 14 step 15 step 16 step 17 step 18 step 19 step 20 step 21 step 22 step 23
+e86a        1       1       1       1       1       1       1       1       1       1       1
+r61i        5       5       4       4       4       4       4       4       4       4       3
+e88a        4       4       3       3       3       3       3       3       3       3       2
+a2i         7       6       5       5       5       5       5       4       4       4      NA
+r54i        4       4       3       3       3       3       3       3       3       3       2
+a72ee      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+r56i       11      10      NA      NA      NA      NA      NA      NA      NA      NA      NA
+a74ee      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+e80a       10       9       8       7       6       6       5       4       4       3       2
+a11i        8       7       6       5       4       4       3       2       2       2       2
+r51i       10       9       9       8      NA      NA      NA      NA      NA      NA      NA
+a67i       11      10       9       8       7       7       6      NA      NA      NA      NA
+r47i       10       9       9      NA      NA      NA      NA      NA      NA      NA      NA
+r52i       NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+a28i       11      10       9       8       7       7      NA      NA      NA      NA      NA
+a1i        NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+e100a      12      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+a68i       NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+a69i       NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+e82m       11      10       9       8       7       6       5       4       4       3       3
+e98m       NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+a26ee      10       9       9       8       7       7       6       5       5      NA      NA
+r50i       11      10       9       8       7       6       5       4       4       3       3
+a7i        NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+r62i       NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+r66i       NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+e76m        9       8       8       7       6       5       4       4       3       2       2
+a22i       NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+e77m        5       5       5       5       5       4       4       4       3       2       2
+r30e        6       6       6       6       6       5       5       5      NA      NA      NA
+a131       NA      NA      NA      NA      NA      NA      NA      NA      NA      NA      NA
+e102m       5       5       5       5       5       4       4       4       3       3       3
+e93s        8       8       8       8       8      NA      NA      NA      NA      NA      NA
+      step 24 step 25 step 26 step 27 step 28 step 29 step 30
+e86a        1       1       0       0       0       0       0
+r61i        3       3      NA      NA      NA      NA      NA
+e88a        2       2       1       1       1       1       0
+a2i        NA      NA      NA      NA      NA      NA      NA
+r54i        2       2       1       1       1       1      NA
+a72ee      NA      NA      NA      NA      NA      NA      NA
+r56i       NA      NA      NA      NA      NA      NA      NA
+a74ee      NA      NA      NA      NA      NA      NA      NA
+e80a        2       2       2       2       1       0       0
+a11i        2       1       1       1       1      NA      NA
+r51i       NA      NA      NA      NA      NA      NA      NA
+a67i       NA      NA      NA      NA      NA      NA      NA
+r47i       NA      NA      NA      NA      NA      NA      NA
+r52i       NA      NA      NA      NA      NA      NA      NA
+a28i       NA      NA      NA      NA      NA      NA      NA
+a1i        NA      NA      NA      NA      NA      NA      NA
+e100a      NA      NA      NA      NA      NA      NA      NA
+a68i       NA      NA      NA      NA      NA      NA      NA
+a69i       NA      NA      NA      NA      NA      NA      NA
+e82m        3       2       2       2      NA      NA      NA
+e98m       NA      NA      NA      NA      NA      NA      NA
+a26ee      NA      NA      NA      NA      NA      NA      NA
+r50i        3      NA      NA      NA      NA      NA      NA
+a7i        NA      NA      NA      NA      NA      NA      NA
+r62i       NA      NA      NA      NA      NA      NA      NA
+r66i       NA      NA      NA      NA      NA      NA      NA
+e76m        2       1       1       1       0       0       0
+a22i       NA      NA      NA      NA      NA      NA      NA
+e77m        1       1       1       0       0       0       0
+r30e       NA      NA      NA      NA      NA      NA      NA
+a131       NA      NA      NA      NA      NA      NA      NA
+e102m       2       2       2      NA      NA      NA      NA
+e93s       NA      NA      NA      NA      NA      NA      NA
+ [ reached getOption("max.print") -- omitted 2 rows ]
+
+$HT
+[1] 0.5630996
+
